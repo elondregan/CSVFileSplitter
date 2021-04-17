@@ -2,11 +2,14 @@ package com.elondregan;
 
 import com.elondregan.CsvSplitter.Splitter;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args){
         Splitter splitter = new Splitter();
-        splitter.readFile("C:\\Users\\elond\\IdeaProjects\\CSVSplitter\\src\\main\\resources\\testDeDupe.csv");
+        String fileName = "src/main/resources/input.csv";
 
+        splitter.readFile(fileName);
     }
 }

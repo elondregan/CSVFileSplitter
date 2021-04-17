@@ -8,6 +8,8 @@ To run:
 Execute the following command:
 ./gradlew clean build run
 
+To update the input, replace the contents of input.csv with whatever value you want to run it for.
+
 Current flaws with the program:
 Initially, this problem seems pretty simple, we need to group data, de-dupe it and sort it.
 
